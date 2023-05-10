@@ -1,18 +1,8 @@
 const person = {
     first: 'Todd',
     last: 'Smith',
-    age: 27
-};
-const person2 = {
-    first: 'John',
-    last: 'Doe',
-    age: 30
-};
-const person = {
-    first: 'Todd',
-    last: 'Smith',
     age: 27,
-    ciao: "ciao", //viene considerata come any 
+    ciao: "ciao" //viene considerata come any 
 };
 const person2 = {
     first: 'John',
@@ -22,6 +12,7 @@ const person2 = {
 const person3 = {
     first: 'John',
     last: 'Doe',
+    age: 30,
     fullName: function () {
         return this.first + ' ' + this.last;
     }
@@ -34,5 +25,5 @@ console.log(fullName());
 console.log(pow(5, 10));
 const arr = [];
 arr.push(1);
-arr.push('ciao');
+arr.push(2);
 //# sourceMappingURL=index.js.map

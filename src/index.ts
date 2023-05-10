@@ -1,14 +1,3 @@
-const person = {
-    first: 'Todd',
-    last: 'Smith',
-    age: 27
-}
-
-const person2 = {
-    first: 'John',
-    last: 'Doe',
-    age: 30
-}
 
 interface Person {
     first: string;
@@ -20,8 +9,8 @@ interface Person {
 const person: Person = {
     first: 'Todd',
     last: 'Smith',
-    age: 27
-    ciao: "ciao", //viene considerata come any 
+    age: 27,
+    ciao: "ciao" //viene considerata come any 
 }
 
 const person2: Person = {
@@ -33,6 +22,7 @@ const person2: Person = {
 const person3: Person = {
     first: 'John',
     last: 'Doe',
+    age: 30,
     fullName: function() {
         return this.first + ' ' + this.last;
     }
@@ -53,4 +43,4 @@ console.log(pow(5, 10));
 
 const arr: number[] = []
 arr.push(1)
-arr.push('ciao')
+arr.push(2)
